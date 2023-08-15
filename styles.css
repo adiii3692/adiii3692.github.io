@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.blue{
+    color: #00CBFF;
+}
+
+.red{
+    color: #BF3E3E;
+}
+
+.bg-blue{
+    background-color: #00CBFF;;
+}
+
+.bg-red{
+    background-color: #BF3E3E;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-brown{
+    background-color: #6B5C5C;
+}
+
+.font-white{
+    color: white;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.weight-black{
+    font-weight: 900;
+}
+
+.font-36{
+    font-size: 36px;
+}
+
+.font-90{
+    font-size: 90px;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.no-decor{
+    text-decoration: none;
+}
+
+.logo{
+    width: 190px;
+    height: 185px;
+}
+ 
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-left{
+    justify-content: left;
+}
+
+.justify-right{
+    justify-content: right;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.px-50{
+    padding: 0 50px;
+}
+
+.mx-50{
+    margin: 0 50px;
+}
+
+.mxr-10{
+    margin-right: 10px;
+}
+
+.mxr-20{
+    margin-right: 20px;
+}
+
+.margin-0{
+    margin: 0;
+}
+
+.bg-img{
+    background-image: url("./assets/bg.jpg");
+    height: 132px;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.h-full{
+    height: 100%;
+}
+
+.object-cover{
+    object-fit: cover;
+}
+
+.smoothed {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.border-white{
+    border: 7px solid white;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.z-3{
+    z-index: 3;
+}
+
+.z-2{
+    z-index: 2;
+}
+
+.z-1{
+    z-index: 1;
+}
+
+.z-neg-1{
+    z-index: -1;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+button{
+    background-color: #BF3E3E;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 90px;
+    width: 142px;
+    height: 43px;
+    border: none;
+    box-shadow: 10px 5px 5px black;
+}
